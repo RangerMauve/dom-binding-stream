@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<title>dom-binding-stream</title>
+<code>
+	<pre id="output">
+	</pre>
+</code>
+<main>
+	<div>
+		<label>Select box</label>
+		<select data-binding="select" value="foo">
+			<option>Foo</option>
+			<option>Bar</option>
+			<option>Baz</option>
+		</select>
+	</div>
+	<div>
+		<label>Text Input</label>
+		<input data-binding="text">
+	</div>
+	<div>
+		<label>Radio Button Input</label>
+		<input type="radio" name="radio" value="foo" data-binding="radio">
+		<input type="radio" name="radio" value="bar" data-binding="radio">
+		<input type="radio" name="radio" value="baz" data-binding="radio">
+	</div>
+</main>
+<script src="bundle.js"></script>

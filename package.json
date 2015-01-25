@@ -1,0 +1,36 @@
+{
+  "name": "dom-binding-stream",
+  "version": "1.0.0",
+  "description": "Binds to a DOM node, and emits changes of any inputs/textareas/selects inside it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "browserify ./example/index.js > ./example/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RangerMauve/dom-binding-stream.git"
+  },
+  "keywords": [
+    "dom",
+    "data",
+    "binding",
+    "stream",
+    "model"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/dom-binding-stream/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/dom-binding-stream",
+  "dependencies": {
+    "dom-delegate-stream": "^1.0.0",
+    "make-prop": "^1.1.0",
+    "through2-map": "^1.4.0"
+  },
+  "devDependencies": {
+    "browserify": "^8.1.1",
+    "object-merge-stream": "^1.1.0"
+  }
+}
