@@ -8,6 +8,8 @@ This module expects a DOM node with either `<textarea>`, `<input>`, or `<select>
 Example
 -------
 
+Live [demo](http://rangermauve.github.io/dom-binding-stream/example/).
+
 Given some HTML that looks like this:
 
 ```html
