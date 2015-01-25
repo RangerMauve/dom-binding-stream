@@ -26,7 +26,3 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
-
-# Ignore browserify bundles in the example
-bundle.js
-.bundle.js
